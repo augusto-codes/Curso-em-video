@@ -1,0 +1,5 @@
+print('Vamos descobrir a média de 2 bimestre de um aluno')
+nome = input('Como se chama o Aluno? ')
+bimestre_1 = float(input(f'Digite a nota do 1° Bimestre do(a) {nome}: '))
+bimestre_2 = float(input(f'Digite a nota do 2° Bimestre do(a) {nome}: '))
+print(f'{nome} no primeiro bimestre tirou nota {bimestre_1}, já no segundo {bimestre_2}, assim tendo uma média de {(bimestre_1+bimestre_2)/2}')

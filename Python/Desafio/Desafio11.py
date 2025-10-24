@@ -1,0 +1,7 @@
+print('Calcule a quantidade de tinta que será utilizado')
+largura = input('Digite a largura da parede: ').replace(',','.')
+altura = input('Digite a altura da parede: ').replace(',','.')
+largura = float(largura)
+altura = float(altura)
+print(f'A aréa da sua parede é de {largura * altura}m²')
+print(f'Cada litro de tinta pinta 2m², nesse caso será necessario {(largura*altura) / 2} litro(s) de tinta'.replace('.',','))
