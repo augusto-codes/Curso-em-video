@@ -21,6 +21,7 @@ razao = int(input('Dígite o valor da razão: '))
 #Forma de sempre pegar até 10º termo da P.A
 decimo_termo = primeiro_termo + (10 - 1) * razao
 
+#O 'decimo_termo + razao' é para ter certeza que ele irá pegar o décimo termo e não parar nele
 for c in range(primeiro_termo, decimo_termo + razao, razao):
     print(f'{c}', end= ' -> ')
 print('Acabou')
