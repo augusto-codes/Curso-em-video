@@ -40,7 +40,7 @@ for nome_i, ano_i in lista_completa.items():
         print(f'{cor_verde}{nome_i} tem {ano_atual - ano_i} anos, ele já é maior de idade{cor_padrao}')
         maior_idade = maior_idade + 1
 
-print(f'Em {numero_pessoas} pessoa(s) tem com menoridade {cor_vermelha}{menor_idade}{cor_padrao} pessoa(s) e com maioridade tem {cor_verde}{maior_idade}{cor_padrao}.')
+print(f'Em {numero_pessoas} pessoa(s) tem com menoridade {cor_vermelha}{menor_idade}{cor_padrao} pessoa(s) e com maioridade tem {cor_verde}{maior_idade}{cor_padrao} pessoa(s).')
 
 
 
