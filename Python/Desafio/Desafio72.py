@@ -11,4 +11,4 @@ while True:
     else:
         print(f"Tente novamente.")
 
-print(f"Você diigítou o número {numeros[input_num]}")
+print(f"Você digítou o número {numeros[input_num]}")

@@ -13,8 +13,8 @@ print(f"O número 9 aparece {tupla_num.count(9)} vezes")
 if 3 in tupla_num:
     print(f"O primeiro valor 3 aparece na {tupla_num.index(3)+1}ª posição ")
 else:
-    print('Não a número 3 na tupla')
-    
+    print('NO valor 3 não foi digítado em nenhuma posição')
+
 for num in tupla_num:
     resto = num % 2
     if resto == 0:
