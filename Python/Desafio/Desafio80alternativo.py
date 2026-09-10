@@ -1,3 +1,6 @@
+"""Lista Ordenada sem Sort: O usuário digita 5 valores numéricos e o programa deve inseri-los na
+posição correta da lista sem usar o método sort(). Mostra a lista ordenada ao final."""
+
 lista = []
 
 for cont in range(0, 5):

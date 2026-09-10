@@ -8,7 +8,6 @@ for cont in range(0, 5):
     lista.append(valor)
 
 lista_ordenada = []
-print(min(lista))
 
 for cont in range(0, 5):
     menor_numero = min(lista)
